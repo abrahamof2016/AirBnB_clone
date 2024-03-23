@@ -1,9 +1,8 @@
 """
 user module.
 """
-import models
-import BaseModel from models
-class User(models.BaseModel):
+from models.base_model import BaseModel
+class User(BaseModel):
     """
     class user.
     Inherits from BaseModel.
@@ -14,7 +13,7 @@ class User(models.BaseModel):
         last_name(str): empty string.
 
     """
-    emial = ""
+    email = ""
     password = ""
     first_name = ""
     last_name = ""
