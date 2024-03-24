@@ -13,6 +13,6 @@ class Review(BaseModel):
         user_id(str).
         text(str).
     """
-    pace_id = ""
+    place_id = ""
     user_id = ""
     test = ""
