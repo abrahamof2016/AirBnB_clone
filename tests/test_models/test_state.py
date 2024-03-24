@@ -83,5 +83,6 @@ class TestState(unittest.TestCase):
         self.assertIsNotNone(new_state.created_at)
         self.assertIsNotNone(new_state.updated_at)
 
+
 if __name__ == '__main__':
     unittest.main()
