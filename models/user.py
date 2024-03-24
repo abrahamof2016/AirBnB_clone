@@ -1,20 +1,19 @@
 #!/usr/bin/python3
 """
-class user
-It inherits from BaseModel.
+User module.
 """
-from models.base_model import BaseModel
+import models
 
 
-class User(BaseModel):
+class User(models.base_model.BaseModel):
     """
-    class user.
-    attributes:
-        email(string) - user's email
-        password(str) - user's account password.
-        first_name(str) - user's first name
-        last_name(str) - user's last name
-     """
+    Class User.
+    Attributes:
+        email (str): User email.
+        password (str): User password.
+        first_name (str): User first name.
+        last_name (str): User last name.
+    """
     email = ""
     password = ""
     first_name = ""
