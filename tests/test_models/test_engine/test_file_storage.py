@@ -57,5 +57,6 @@ class TestFileStorage(unittest.TestCase):
         except FileNotFoundError:
             self.assertEqual(1, 2)
 
+
 if __name__ == '__main__':
     unittest.main()
