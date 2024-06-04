@@ -7,6 +7,6 @@ This project serves as a foundational step for developing front-end experience f
 
 # Tasks
 
-* 0-index.html: An HTML page that displays a header and a footer
-* 1-index.html: An HTML page that diplays a header and a footer by using the style tag in the head
+* 0-index.html: An HTML page that displays a header and a footer with inline css.
+* 1-index.html: An HTML page that diplays a header and a footer with internal css.
 ```
