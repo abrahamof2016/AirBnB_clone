@@ -59,8 +59,9 @@ Grid
 	-moz-box-sizing: border-box;
 		box-sizing: border-box;
 }
+
 header {
-	color: #f00;
-	height: 70px;
-	width: 100%;
+    color: #f00;
+    height: 70px;
+    width: 100%;
 }
