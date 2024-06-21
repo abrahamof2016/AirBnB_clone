@@ -1,0 +1,33 @@
+.Places h1 {
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+.Places article.place {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 35px;
+
+}
+.Places article.suite_place {
+    width: 390px;
+    padding: 20px;
+    border-left: 1px solid #ff5a5f;
+    border-right: 1px solid #ff5a5f;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.Places article h2 {
+    font-size: 30px;
+    margin: 0 auto;
+    color: black;
+    margin-left: 25%;
+}
