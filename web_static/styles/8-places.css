@@ -1,0 +1,80 @@
+.Places h1 {
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+.Places article.place {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 35px;
+
+}
+.Places article.suite_place {
+    width: 390px;
+    padding: 20px;
+    border-left: 1px solid #ff5a5f;
+    border-right: 1px solid #ff5a5f;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.Places article h2 {
+    font-size: 30px;
+    margin: 0;
+    color: black;
+    margin-left: 25%;
+}
+.price_by_night {
+    color: #ff5a5f;
+    border: #ff5a5f 4px rounded;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+
+}
+.information {
+    height: 80px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+}
+.max_guest {
+    width: 70px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+.number_rooms {
+    width: 100px;
+    padding: 5px;
+}
+.number_bathrooms {
+    width: 100px;
+    padding: 5px;
+    margin-left: 15px;
+}
+.logo1, 
+.logo2,
+.logo3 {
+    vertical-align: top;
+}
+.information div {
+    display: inline-block;
+}
+.user {
+    margin: 5px;
+    padding: 5px;
+}
+.description {
+    margin: 5px;
+
+}
